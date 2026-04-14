@@ -1,0 +1,212 @@
+/**
+ * Panth ProductTabs — Luma CSS
+ * Uses CSS custom properties from theme-config.json for theming.
+ *
+ * Copyright © Panth Infotech. All rights reserved.
+ */
+
+/* =============================================
+   Base Container
+   ============================================= */
+.panth-product-tabs {
+    font-family: var(--product-tabs-font-family, 'DM Sans', sans-serif);
+    margin: 32px 0 48px;
+}
+
+/* Magento default tab styles are overridden by our inline styles */
+
+/* =============================================
+   Tab Navigation — Horizontal
+   ============================================= */
+.panth-tabs-horizontal .panth-tabs-nav {
+    display: flex;
+    border-bottom: 2px solid var(--product-tabs-border, #E5E7EB);
+    gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.panth-tabs-horizontal .panth-tab-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--product-tabs-text-muted, #6B7280);
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--product-tabs-transition-speed, 300ms) ease;
+    font-family: inherit;
+}
+
+.panth-tabs-horizontal .panth-tab-btn:hover {
+    color: var(--product-tabs-text, #171717);
+    background: var(--product-tabs-hover-bg, #F9FAFB);
+}
+
+.panth-tabs-horizontal .panth-tab-btn.active {
+    color: var(--product-tabs-primary, #0D9488);
+    border-bottom-color: var(--product-tabs-active-border, #0D9488);
+}
+
+/* =============================================
+   Tab Navigation — Vertical
+   ============================================= */
+.panth-tabs-vertical .panth-tabs-vertical-wrapper {
+    display: flex;
+    gap: 0;
+}
+
+.panth-tabs-vertical .panth-tabs-nav {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 240px;
+    border-right: 2px solid var(--product-tabs-border, #E5E7EB);
+}
+
+.panth-tabs-vertical .panth-tab-btn {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--product-tabs-text-muted, #6B7280);
+    background: transparent;
+    border: none;
+    border-left: 2px solid transparent;
+    margin-right: -2px;
+    cursor: pointer;
+    text-align: left;
+    transition: all var(--product-tabs-transition-speed, 300ms) ease;
+    font-family: inherit;
+}
+
+.panth-tabs-vertical .panth-tab-btn:hover {
+    color: var(--product-tabs-text, #171717);
+    background: var(--product-tabs-hover-bg, #F9FAFB);
+}
+
+.panth-tabs-vertical .panth-tab-btn.active {
+    color: var(--product-tabs-primary, #0D9488);
+    border-left-color: var(--product-tabs-active-border, #0D9488);
+    background: var(--product-tabs-hover-bg, #F9FAFB);
+}
+
+.panth-tabs-vertical .panth-tabs-content {
+    flex: 1;
+    min-width: 0;
+    padding-left: 24px;
+}
+
+/* =============================================
+   Tab Panels
+   ============================================= */
+.panth-tab-panel {
+    display: none;
+}
+
+.panth-tab-panel.active {
+    display: block;
+}
+
+.panth-tab-panel-inner {
+    padding: 24px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--product-tabs-text, #171717);
+}
+
+/* Content styling within tabs */
+.panth-tab-panel-inner table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.panth-tab-panel-inner table th,
+.panth-tab-panel-inner table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--product-tabs-border, #E5E7EB);
+    text-align: left;
+    font-size: 14px;
+}
+
+.panth-tab-panel-inner table th {
+    font-weight: 600;
+    color: var(--product-tabs-text, #171717);
+    width: 35%;
+}
+
+.panth-tab-panel-inner table td {
+    color: var(--product-tabs-text-muted, #6B7280);
+}
+
+/* =============================================
+   Accordion (Mobile)
+   ============================================= */
+.panth-accordion-btn {
+    display: none;
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--product-tabs-text, #171717);
+    background: var(--product-tabs-bg, #FFFFFF);
+    border: none;
+    border-bottom: 1px solid var(--product-tabs-border, #E5E7EB);
+    cursor: pointer;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    transition: all var(--product-tabs-transition-speed, 300ms) ease;
+}
+
+.panth-accordion-btn .panth-accordion-icon {
+    transition: transform var(--product-tabs-transition-speed, 300ms) ease;
+}
+
+.panth-accordion-btn.active {
+    color: var(--product-tabs-primary, #0D9488);
+}
+
+.panth-accordion-btn.active .panth-accordion-icon {
+    transform: rotate(180deg);
+}
+
+/* =============================================
+   Mobile Responsive
+   ============================================= */
+@media (max-width: 767px) {
+    /* Hide desktop tab nav on mobile */
+    .panth-tabs-nav {
+        display: none !important;
+    }
+
+    /* Show accordion buttons on mobile */
+    .panth-accordion-btn {
+        display: flex !important;
+    }
+
+    /* Vertical wrapper goes vertical on mobile */
+    .panth-tabs-vertical .panth-tabs-vertical-wrapper {
+        flex-direction: column;
+    }
+
+    .panth-tabs-vertical .panth-tabs-content {
+        padding-left: 0;
+    }
+
+    .panth-tab-panel-inner {
+        padding: 16px;
+    }
+}
+
+/* =============================================
+   Tablet tweaks
+   ============================================= */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .panth-tabs-vertical .panth-tabs-nav {
+        width: 200px;
+    }
+}
