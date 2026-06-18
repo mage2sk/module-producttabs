@@ -1,32 +1,49 @@
 <!-- SEO Meta -->
 <!--
-  Title: Panth Product Tabs - Product Detail Page Tab Customization for Magento 2 | Panth Infotech
-  Description: Panth Product Tabs is a powerful Magento 2 extension for product detail page tab customization. Horizontal/vertical tab styles, fade/slide animations, mobile accordion, custom CMS block tabs, custom attribute tabs, and full tab visibility/sort order/label control from admin. Compatible with Hyva and Luma themes, Magento 2.4.4 - 2.4.8, and PHP 8.1 - 8.4.
-  Keywords: magento 2 product tabs, magento 2 custom tabs, magento 2 attribute tabs, magento 2 cms block tabs, product detail page tab customization, magento 2 tabs extension, vertical tabs magento 2, horizontal tabs magento 2, mobile accordion tabs, hyva product tabs, luma product tabs, hire magento developer, top rated plus upwork
+  Title: Magento 2 Product Tabs Extension: Custom Tab Layout, CMS Block Tabs, Attribute Tabs | Hyva + Luma | Panth Infotech
+  Description: Panth Product Tabs replaces the default Magento 2 PDP tab strip with a flexible, admin-configurable system. Horizontal and vertical layouts, fade/slide animations, mobile accordion, unlimited custom CMS block tabs, custom attribute tabs, and full tab visibility/sort order/label control. Native Hyva (Alpine.js) and Luma templates. Works on Magento 2.4.4 to 2.4.8 and PHP 8.1 to 8.4. Built by Top Rated Plus Magento developer Kishan Savaliya.
+  Keywords: magento 2 product tabs, magento 2 custom tabs, magento 2 cms block tabs, magento 2 attribute tabs, magento 2 tab extension, hyva product tabs, luma product tabs, magento 2 vertical tabs, magento 2 horizontal tabs, mobile accordion tabs, magento 2 tab customization, product detail page tabs, magento 2 tab sort order, magento 2 tab visibility
   Author: Kishan Savaliya (Panth Infotech)
-  Canonical: https://github.com/mage2sk/module-producttabs
+  Canonical: https://kishansavaliya.com/magento-2-producttabs.html
 -->
 
-# Panth Product Tabs — Product Detail Page Tab Customization for Magento 2
+# Magento 2 Product Tabs Extension: Custom Layout, CMS Block Tabs, and Attribute Tabs (Hyva + Luma)
 
 [![Magento 2.4.4 - 2.4.8](https://img.shields.io/badge/Magento-2.4.4%20--%202.4.8-orange?logo=magento&logoColor=white)](https://magento.com)
 [![PHP 8.1 - 8.4](https://img.shields.io/badge/PHP-8.1%20--%208.4-blue?logo=php&logoColor=white)](https://php.net)
-[![Hyva & Luma](https://img.shields.io/badge/Themes-Hyva%20%26%20Luma-brightgreen)]()
+[![Hyva + Luma](https://img.shields.io/badge/Themes-Hyva%20%2B%20Luma-14b8a6)](https://www.hyva.io)
+[![Live Demo & Details](https://img.shields.io/badge/Live%20Demo%20%26%20Details-magento--2--producttabs-0D9488?style=flat)](https://kishansavaliya.com/magento-2-producttabs.html)
 [![Packagist](https://img.shields.io/badge/Packagist-mage2kishan%2Fmodule--producttabs-orange?logo=packagist&logoColor=white)](https://packagist.org/packages/mage2kishan/module-producttabs)
 [![Upwork Top Rated Plus](https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~016dd1767321100e21)
-[![Panth Infotech Agency](https://img.shields.io/badge/Agency-Panth%20Infotech-14a800?logo=upwork&logoColor=white)](https://www.upwork.com/agencies/1881421506131960778/)
 [![Website](https://img.shields.io/badge/Website-kishansavaliya.com-0D9488)](https://kishansavaliya.com)
-[![Get a Quote](https://img.shields.io/badge/Get%20a%20Quote-Free%20Estimate-DC2626)](https://kishansavaliya.com/get-quote)
 
-> **Product Detail Page Tab Customization for Magento 2** — transform the default PDP tabs into a modern, conversion-focused experience with horizontal/vertical layouts, fade and slide animations, mobile accordion behaviour, unlimited custom CMS block tabs, custom attribute tabs rendered as styled tables, and full admin control over tab visibility, sort order, and labels. Works flawlessly on both Hyva and Luma storefronts.
+> **Rethink how product information is displayed on your PDP.** Panth Product Tabs replaces Magento's default tab strip with a configurable system that supports horizontal and vertical layouts, fade and slide animations, a mobile accordion, unlimited custom CMS block tabs, attribute-driven spec tabs, and full admin control over tab labels, visibility, and sort order. Native templates for **Hyva (Alpine.js)** and **Luma** are both included.
 
-**Panth Product Tabs** replaces Magento's rigid default tab strip on the product detail page with a flexible, admin-configurable tab system. Merchants can switch between horizontal and vertical tab layouts, choose fade or slide animations for tab transitions, enable mobile accordion mode for touch-friendly browsing, add unlimited custom tabs powered by CMS blocks (perfect for shipping info, size guides, care instructions, warranty details), create attribute-driven tabs that present product specifications in a clean styled table, and control every built-in tab's visibility, label, and sort order from a single admin screen. Every feature works natively on both **Hyva (Alpine.js + Tailwind)** and **Luma (RequireJS + Knockout)** with automatic theme detection.
+**Product page:** [kishansavaliya.com/magento-2-producttabs.html](https://kishansavaliya.com/magento-2-producttabs.html)
 
 ---
 
-## 🚀 Need Custom Magento 2 Development?
+## Quick Answer
 
-> **Get a free quote for your project in 24 hours** — custom modules, Hyva themes, performance optimization, M1→M2 migrations, and Adobe Commerce Cloud.
+**What is Panth Product Tabs?** It is a Magento 2 product tabs extension that replaces the default PDP tab strip with a fully configurable tab system, so merchants can choose layouts, add custom content tabs, and control every tab from admin without touching a template.
+
+**What does it add to my store?**
+
+- A **horizontal or vertical tab layout** with fade, slide, or no animation, configurable from admin.
+- **Mobile accordion mode** so the PDP stays compact and easy to scroll on phones.
+- **Custom CMS block tabs** for shipping info, size guides, care instructions, warranty details, and anything else stored in a CMS block.
+- **Custom attribute tabs** that pull product attribute values into a clean spec table.
+- **Full label, visibility, and sort order control** for the built-in Description, More Information, and Reviews tabs.
+
+**Which themes are supported?** Both **Hyva** (Alpine.js, no jQuery) and **Luma**. The right template is loaded based on the active theme.
+
+**What does it need?** Magento 2.4.4 to 2.4.8, PHP 8.1 to 8.4, and the free `mage2kishan/module-core` package.
+
+---
+
+## Need Custom Magento 2 Development?
+
+> **Get a free quote for your project in 24 hours** for custom modules, Hyva themes, performance work, M1 to M2 migrations, and Adobe Commerce Cloud.
 
 <p align="center">
   <a href="https://kishansavaliya.com/get-quote">
@@ -38,7 +55,7 @@
 <tr>
 <td width="50%" align="center">
 
-### 🏆 Kishan Savaliya
+### Kishan Savaliya
 **Top Rated Plus on Upwork**
 
 [![Hire on Upwork](https://img.shields.io/badge/Hire%20on%20Upwork-Top%20Rated%20Plus-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~016dd1767321100e21)
@@ -49,7 +66,7 @@ Adobe Certified • Hyva Specialist
 </td>
 <td width="50%" align="center">
 
-### 🏢 Panth Infotech Agency
+### Panth Infotech Agency
 **Magento Development Team**
 
 [![Visit Agency](https://img.shields.io/badge/Visit%20Agency-Panth%20Infotech-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/agencies/1881421506131960778/)
@@ -67,15 +84,12 @@ Performance • SEO • Adobe Commerce Cloud
 
 ## Table of Contents
 
+- [Who Is It For](#who-is-it-for)
 - [Key Features](#key-features)
-- [Why Merchants Choose Panth Product Tabs](#why-merchants-choose-panth-product-tabs)
 - [Compatibility](#compatibility)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Custom CMS Block Tabs](#custom-cms-block-tabs)
-- [Custom Attribute Tabs](#custom-attribute-tabs)
-- [Tab Visibility, Sort Order & Labels](#tab-visibility-sort-order--labels)
-- [Hyva & Luma Support](#hyva--luma-support)
+- [How It Works](#how-it-works)
 - [FAQ](#faq)
 - [Support](#support)
 - [About Panth Infotech](#about-panth-infotech)
@@ -83,52 +97,48 @@ Performance • SEO • Adobe Commerce Cloud
 
 ---
 
-## Key Features
+## Who Is It For
 
-### Tab Layout & Animations
-
-- **Horizontal & Vertical tab styles** — pick the orientation that matches your storefront design (top tab strip or side tab column)
-- **Fade, Slide, or None animations** — smooth configurable transitions between tab panels
-- **Sticky tab navigation** — keep the tab bar visible as customers scroll through long descriptions
-- **Deep linking via URL hash** — link directly to a specific tab (e.g. `/product.html#reviews`) from emails, ads, or internal links
-
-### Mobile Experience
-
-- **Mobile accordion mode** — collapsible accordion layout optimized for touch devices
-- **Horizontal scroll fallback** — alternative mobile behaviour for long tab lists
-- **Responsive by default** — breakpoint-aware styling for phones, tablets, and desktops
-
-### Custom Tab Types
-
-- **Custom CMS Block Tabs** — add unlimited tabs powered by any CMS block (shipping info, size guides, care instructions, warranty, video demos, FAQs)
-- **Custom Attribute Tabs** — group product attributes into their own tab rendered as a clean, styled specification table
-- **Per-tab icons** — assign an icon class (Font Awesome or custom) to each custom tab
-
-### Admin Control
-
-- **Tab visibility toggle** — show or hide Description, More Information, and Reviews tabs independently
-- **Custom label overrides** — rename any built-in tab (e.g. "Description" → "Product Details")
-- **Configurable sort order** — drag-and-drop-style numeric sort order for all tabs (built-in + custom)
-- **Default open tab** — choose which tab opens on page load
-- **Lazy-loaded reviews** — defer Reviews tab initialization for faster First Contentful Paint
-
-### Developer & SEO
-
-- **Review count badge** — displays approved review count in the Reviews tab label for social proof
-- **Widget support** — embed Product Tabs on CMS pages and blocks via the widget picker
-- **SEO-friendly markup** — semantic HTML, proper ARIA attributes, clean URLs
-- **Hyva & Luma dual support** — separate Alpine.js and vanilla JS templates with automatic theme detection via `Panth\Core\Helper\Theme`
-- **MEQP compliant** — passes Adobe's Magento Extension Quality Program
+- **Stores with detailed product information** who want to organize descriptions, specs, shipping terms, and size guides into separate tabs instead of one long content block.
+- **Merchants selling technical products** like electronics, tools, or building materials, who need a clean specification table pulled from product attributes.
+- **Hyva storefronts** that need a product tabs extension built with Alpine.js, with no jQuery or RequireJS added back in.
+- **Store owners who manage their own content** and need to add or remove tabs from admin without developer help.
+- **Mobile-focused stores** that want the PDP to collapse into an accordion on phones so shoppers can find what they need quickly.
 
 ---
 
-## Why Merchants Choose Panth Product Tabs
+## Key Features
 
-1. **Higher conversion** — organized, scannable product information reduces bounce and increases add-to-cart rate
-2. **Flexible content** — move shipping info, size guides, and warranty details out of long descriptions and into their own tabs
-3. **Mobile-first** — accordion mode keeps mobile PDPs short and fast
-4. **No developer needed** — everything configurable from admin, no template edits required
-5. **Hyva-ready** — one of the few tab extensions with true native Alpine.js Hyva support (not just a Luma fallback)
+### Tab Layout and Animations
+- **Horizontal or vertical tab style** so the layout matches your storefront design.
+- **Fade, slide, or no animation** between tab panels, set from admin.
+- **Sticky tab navigation** to keep the tab bar visible as shoppers scroll through long content.
+- **Open first tab by default** with a toggle to change this per store view.
+
+### Mobile Experience
+- **Mobile accordion mode** that collapses tabs into an expandable list on small screens.
+- **Horizontal scroll fallback** as an alternative mobile layout for long tab lists.
+- **Accordion on mobile toggle** in admin to switch modes without touching templates.
+
+### Custom Tab Types
+- **Unlimited CMS block tabs** so any CMS block can become a tab (shipping details, size charts, care instructions, warranty info, videos).
+- **Custom attribute tabs** that group product attributes into a styled specification table.
+- **Per-tab icon class** support (Bootstrap Icons or any custom class) for CMS and attribute tabs.
+
+### Admin Control
+- **Tab visibility toggle** for Description, More Information, and Reviews tabs independently.
+- **Custom label overrides** to rename any built-in tab from admin.
+- **Numeric sort order** for all tabs, built-in and custom, combined into one sorted list.
+- **Default open tab selector** to choose which tab shows first on page load.
+- **Lazy load reviews** to defer the Reviews tab JavaScript until the tab is clicked, which helps initial page load time.
+
+### Developer and SEO
+- **Review count badge** in the Reviews tab label showing approved review count.
+- **Widget support** to embed Product Tabs on any CMS page or block via the widget picker.
+- **Deep linking via URL hash** so you can link directly to a tab from emails or ads.
+- **Hyva and Luma dual templates** with automatic theme detection via `Panth\Core\Helper\Theme`.
+- **Clean constructor dependency injection**, no ObjectManager usage.
+- **Translation ready**, every label uses Magento's `__()` function.
 
 ---
 
@@ -138,16 +148,11 @@ Performance • SEO • Adobe Commerce Cloud
 |---|---|
 | Magento Open Source | 2.4.4, 2.4.5, 2.4.6, 2.4.7, 2.4.8 |
 | Adobe Commerce | 2.4.4, 2.4.5, 2.4.6, 2.4.7, 2.4.8 |
-| Adobe Commerce Cloud | 2.4.4 — 2.4.8 |
+| Adobe Commerce Cloud | 2.4.4 to 2.4.8 |
 | PHP | 8.1.x, 8.2.x, 8.3.x, 8.4.x |
 | Hyva Theme | 1.3+ (native Alpine.js support) |
 | Luma Theme | Native support |
-| Dependencies | `mage2kishan/module-core ^1.0` |
-
-Tested on:
-- Magento 2.4.8-p4 with PHP 8.4 (Hyva 1.3.x + Luma)
-- Magento 2.4.7 with PHP 8.3
-- Magento 2.4.6 with PHP 8.2
+| Required Dependency | `mage2kishan/module-core` (free) |
 
 ---
 
@@ -157,7 +162,7 @@ Tested on:
 
 ```bash
 composer require mage2kishan/module-producttabs
-bin/magento module:enable Panth_ProductTabs
+bin/magento module:enable Panth_Core Panth_ProductTabs
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento setup:static-content:deploy -f
@@ -166,141 +171,95 @@ bin/magento cache:flush
 
 ### Manual Installation via ZIP
 
-1. Download the latest release ZIP from [Packagist](https://packagist.org/packages/mage2kishan/module-producttabs) or the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com)
-2. Extract the contents to `app/code/Panth/ProductTabs/` in your Magento installation
-3. Run the same commands as above starting from `bin/magento module:enable Panth_ProductTabs`
+1. Download the latest release from [Packagist](https://packagist.org/packages/mage2kishan/module-producttabs) or from the [product page](https://kishansavaliya.com/magento-2-producttabs.html).
+2. Extract it to `app/code/Panth/ProductTabs/` in your Magento install.
+3. Make sure `Panth_Core` is installed too (required dependency).
+4. Run the commands above starting from `bin/magento module:enable`.
 
 ### Verify Installation
 
 ```bash
 bin/magento module:status Panth_ProductTabs
-# Expected output: Module is enabled
+# Expected: Module is enabled
 ```
 
-After installation, navigate to:
+After install, open:
 ```
-Admin → Stores → Configuration → Panth Extensions → Product Tabs
+Admin -> Stores -> Configuration -> Panth Extensions -> Product Tabs
 ```
 
 ---
 
 ## Configuration
 
-All settings live at **Stores → Configuration → Panth Extensions → Product Tabs**.
+Go to **Stores -> Configuration -> Panth Extensions -> Product Tabs**.
 
-### General Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Enable Module | Yes | Master toggle for the Product Tabs module |
-| Sticky Tab Navigation | No | Keep the tab bar pinned while scrolling the PDP |
-| Lazy Load Reviews | No | Defer Reviews tab JS until the tab is first clicked |
-| Default Open Tab | First Available | Which tab opens by default on page load |
-| Deep Linking | Yes | Enable URL hash support (`#tab-id`) |
-
-### Design Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Tab Style | Horizontal | Horizontal (top strip) or Vertical (side column) layout |
-| Animation Type | Fade | Fade, Slide, or None animation between tabs |
-| Mobile Behavior | Accordion | Accordion or horizontal scroll on mobile |
-| Accordion on Mobile | Yes | Auto-switch to accordion below the mobile breakpoint |
-| Show Review Count Badge | Yes | Display approved review count next to the Reviews tab label |
-
----
-
-## Custom CMS Block Tabs
-
-Add **unlimited custom tabs** powered by CMS blocks — ideal for shipping details, size guides, care instructions, warranty policies, product videos, or brand stories.
-
-Each CMS block tab configuration supports:
-
-- **Enabled toggle** — show or hide the tab without deleting it
-- **Custom title** — free-text label (translatable via i18n)
-- **CMS block identifier** — pick any CMS block from your store
-- **Icon class** — optional Font Awesome or custom icon class
-- **Sort order** — numeric position relative to other tabs
-
-Configure under **Product Tabs → Custom CMS Block Tabs**.
-
----
-
-## Custom Attribute Tabs
-
-Group product attributes into their own dedicated tab rendered as a clean, styled specification table. Perfect for technical specs, materials, dimensions, or compliance info.
-
-Each attribute tab supports:
-
-- **Custom title** — free-text label
-- **Comma-separated attribute codes** — e.g. `color,size,material,weight,warranty_years`
-- **Icon class** — optional icon
-- **Sort order** — numeric position
-
-The extension automatically fetches attribute labels and frontend values, respecting store scope and attribute frontend input type (select, multiselect, text, etc.).
-
-Configure under **Product Tabs → Custom Attribute Tabs**.
-
----
-
-## Tab Visibility, Sort Order & Labels
-
-Take full control of Magento's built-in tabs from a single admin screen:
-
-| Tab | Visibility | Custom Label | Sort Order |
+| Setting | Group | Default | Description |
 |---|---|---|---|
-| Description | Show / Hide | Rename freely | Numeric |
-| More Information | Show / Hide | Rename freely | Numeric |
-| Reviews | Show / Hide | Rename freely | Numeric |
-
-Mix built-in tabs with your custom CMS block and attribute tabs — the extension merges and sorts them by the numeric sort order, giving you complete freedom to design your PDP tab experience.
+| Enable Module | General | Yes | Master toggle for the Product Tabs module. |
+| Sticky Tab Navigation | General | No | Keep the tab bar pinned while scrolling the PDP. |
+| Lazy Load Reviews | General | No | Defer Reviews tab JS until the tab is clicked. |
+| Default Open Tab | General | First Available | Which tab opens on page load. |
+| Tab Style | Design | Horizontal | Horizontal (top strip) or Vertical (side column) layout. |
+| Animation Type | Design | Fade | Fade, Slide, or None animation between tabs. |
+| Mobile Behavior | Design | Accordion | Accordion or horizontal scroll on mobile. |
+| Open First Tab by Default | Design | Yes | Automatically open the first tab when the page loads. |
+| Accordion on Mobile | Design | Yes | Switch to accordion layout below the mobile breakpoint. |
+| Description Tab Label | Tab Labels | (empty) | Custom label for the Description tab. |
+| More Information Tab Label | Tab Labels | (empty) | Custom label for the More Information tab. |
+| Reviews Tab Label | Tab Labels | (empty) | Custom label for the Reviews tab. |
+| Show Description Tab | Tab Visibility | Yes | Show or hide the Description tab. |
+| Show More Information Tab | Tab Visibility | Yes | Show or hide the More Information tab. |
+| Show Reviews Tab | Tab Visibility | Yes | Show or hide the Reviews tab. |
+| Description Tab Sort Order | Tab Sort Order | 10 | Sort order for the Description tab. |
+| More Information Tab Sort Order | Tab Sort Order | 20 | Sort order for the More Information tab. |
+| Reviews Tab Sort Order | Tab Sort Order | 30 | Sort order for the Reviews tab. |
+| CMS Block Tabs | Custom CMS Block Tabs | (empty) | Dynamic rows to add tabs that render CMS block content. |
+| Attribute Tabs | Custom Attribute Tabs | (empty) | Dynamic rows to add tabs that display product attributes as a table. |
 
 ---
 
-## Hyva & Luma Support
+## How It Works
 
-Panth Product Tabs ships with **two complete template sets**:
-
-- **Hyva templates** — Alpine.js state management, Tailwind CSS styling, no jQuery, sub-100ms tab switching
-- **Luma templates** — RequireJS + Knockout integration, compatible with default Magento Luma theme
-
-Theme detection is handled by `Panth\Core\Helper\Theme` (from the free Panth Core dependency). The correct template loads automatically based on the active theme — no manual configuration required.
+1. Panth Product Tabs hooks into the product detail page layout via layout XML and replaces the default Magento tab block.
+2. On page load, the active theme is detected by `Panth\Core\Helper\Theme`, and either the Hyva (Alpine.js) or Luma template is served.
+3. Built-in tabs (Description, More Information, Reviews) and all configured custom tabs are merged into a single sorted list using the sort order values set in admin.
+4. On the Hyva template, Alpine.js manages the open tab state, handles the fade or slide transition, and switches to accordion layout below the mobile breakpoint.
+5. When Lazy Load Reviews is enabled, the Reviews tab JavaScript is not loaded until the shopper clicks that tab.
+6. CMS block tabs fetch the block content server-side and render it inside the tab panel.
+7. Attribute tabs read the product's attribute values and render them as a label-value table inside the tab panel.
+8. URL hash deep linking updates via `history.replaceState` so shoppers and campaigns can link directly to a tab.
 
 ---
 
 ## FAQ
 
-### Can I add more than 3 custom tabs?
+### Does this work on Hyva themes?
+Yes. Panth Product Tabs ships native Alpine.js templates for Hyva, with no jQuery, Knockout, or RequireJS. The module reads the active theme through `Panth_Core` and loads the Hyva template automatically.
 
-Yes. Both CMS block tabs and attribute tabs support **unlimited entries**. Add as many as your product requires.
+### Can I add more than three custom tabs?
+Yes. Both CMS block tabs and attribute tabs support unlimited entries. Add as many as your product page requires.
+
+### Will the tabs work with configurable or bundle products?
+Yes. The tab system works with all Magento product types: simple, configurable, grouped, bundle, virtual, and downloadable.
 
 ### Does deep linking work with SEO tools?
+Yes. The URL hash is updated via `history.replaceState`, which is standards-compliant and works with Google Analytics, GA4, and GTM. It does not add extra entries to browser history.
 
-Yes. The URL hash (`#tab-id`) is standards-compliant and works with Google Analytics, GA4, GTM, and page-level SEO audits. The hash is updated via `history.replaceState` so it does not add entries to browser history.
-
-### Will it work with configurable or bundle products?
-
-Yes. Panth Product Tabs works with all Magento product types — simple, configurable, grouped, bundle, virtual, downloadable.
-
-### Does it support multi-store and multi-language?
-
-Yes. All labels and CMS block selections respect Magento's standard scope hierarchy (default → website → store view). The module includes English translations; any tab label can be translated via i18n CSV files.
-
-### Is it compatible with Hyva Checkout and Hyva React Checkout?
-
-The extension targets product detail pages, not checkout — so it is fully compatible with any Hyva checkout implementation (Hyva default, React Checkout, or custom).
-
-### Does lazy-loaded reviews affect SEO?
-
-No. The review schema (JSON-LD) is still rendered server-side. Lazy loading only defers the JavaScript widget, not the structured data or visible review HTML (which is progressively enhanced).
+### Does lazy loading the Reviews tab affect SEO?
+No. The review schema (JSON-LD) is still rendered server-side. Lazy loading only defers the JavaScript widget, not the structured data or visible review HTML.
 
 ### Can I use the Product Tabs block on CMS pages?
-
 Yes. The module registers a widget that can be embedded on any CMS page or block through the admin widget picker.
 
-### Does it modify core Magento files?
+### Does it support multi-store setups?
+Yes. All settings respect Magento's standard scope hierarchy: default, website, and store view. Tab labels can also be translated via i18n CSV files.
 
-No. Panth Product Tabs uses standard Magento extension mechanisms — layout XML, observers, plugins, and ViewModels — without touching any core file.
+### Does it modify core Magento files?
+No. Panth Product Tabs uses standard Magento extension mechanisms: layout XML, observers, plugins, and ViewModels. No core file is touched.
+
+### Does Panth Product Tabs need Panth Core?
+Yes. `mage2kishan/module-core` is a free, required dependency that Composer installs for you automatically.
 
 ---
 
@@ -308,6 +267,7 @@ No. Panth Product Tabs uses standard Magento extension mechanisms — layout XML
 
 | Channel | Contact |
 |---|---|
+| Product Page | [kishansavaliya.com/magento-2-producttabs.html](https://kishansavaliya.com/magento-2-producttabs.html) |
 | Email | kishansavaliyakb@gmail.com |
 | Website | [kishansavaliya.com](https://kishansavaliya.com) |
 | WhatsApp | +91 84012 70422 |
@@ -317,9 +277,9 @@ No. Panth Product Tabs uses standard Magento extension mechanisms — layout XML
 
 Response time: 1-2 business days.
 
-### 💼 Need Custom Magento Development?
+### Need Custom Magento Development?
 
-Looking for **custom Magento module development**, **Hyva theme customization**, **store migrations**, or **performance optimization**? Get a free quote in 24 hours:
+Looking for **custom Magento module development**, **Hyva theme work**, **store migrations**, or **performance tuning**? Get a free quote in 24 hours:
 
 <p align="center">
   <a href="https://kishansavaliya.com/get-quote">
@@ -336,48 +296,46 @@ Looking for **custom Magento module development**, **Hyva theme customization**,
     <img src="https://img.shields.io/badge/Visit-Panth%20Infotech%20Agency-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Visit Agency" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://kishansavaliya.com">
-    <img src="https://img.shields.io/badge/Visit%20Website-kishansavaliya.com-0D9488?style=for-the-badge" alt="Visit Website" />
+  <a href="https://kishansavaliya.com/magento-2-producttabs.html">
+    <img src="https://img.shields.io/badge/View%20Product%20Page-magento--2--producttabs-0D9488?style=for-the-badge" alt="View Product Page" />
   </a>
 </p>
-
----
-
-## License
-
-Panth Product Tabs is distributed under a proprietary license — see `LICENSE.txt`. Distributed exclusively through the Adobe Commerce Marketplace and Packagist.
 
 ---
 
 ## About Panth Infotech
 
-Built and maintained by **Kishan Savaliya** — [kishansavaliya.com](https://kishansavaliya.com) — a **Top Rated Plus** Magento developer on Upwork with 10+ years of eCommerce experience.
+Built and maintained by **Kishan Savaliya** ([kishansavaliya.com](https://kishansavaliya.com)), a **Top Rated Plus** Magento developer on Upwork with 10+ years of eCommerce experience.
 
-**Panth Infotech** is a Magento 2 development agency specializing in high-quality, security-focused extensions and themes for both Hyva and Luma storefronts. Our extension suite covers SEO, performance, checkout, product presentation, customer engagement, and store management — over 34 modules built to MEQP standards and tested across Magento 2.4.4 to 2.4.8.
+**Panth Infotech** is a Magento 2 development agency that builds high quality, security focused extensions and themes for both Hyva and Luma storefronts. The extension suite covers SEO, performance, checkout, product presentation, customer engagement, and store management, with each module built to MEQP standards and tested across Magento 2.4.4 to 2.4.8.
 
-Browse the full extension catalog on the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com) or [Packagist](https://packagist.org/packages/mage2kishan/).
+Browse the full extension catalog on our [Magento extensions page](https://kishansavaliya.com/magento-extensions.html) or on [Packagist](https://packagist.org/packages/mage2kishan/).
 
-### Quick Links
+---
 
-- 🌐 **Website:** [kishansavaliya.com](https://kishansavaliya.com)
-- 💬 **Get a Quote:** [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote)
-- 👨‍💻 **Upwork Profile (Top Rated Plus):** [upwork.com/freelancers/~016dd1767321100e21](https://www.upwork.com/freelancers/~016dd1767321100e21)
-- 🏢 **Upwork Agency:** [upwork.com/agencies/1881421506131960778](https://www.upwork.com/agencies/1881421506131960778/)
-- 📦 **Packagist:** [packagist.org/packages/mage2kishan/module-producttabs](https://packagist.org/packages/mage2kishan/module-producttabs)
-- 🐙 **GitHub:** [github.com/mage2sk/module-producttabs](https://github.com/mage2sk/module-producttabs)
-- 🛒 **Adobe Marketplace:** [commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
-- 📧 **Email:** kishansavaliyakb@gmail.com
-- 📱 **WhatsApp:** +91 84012 70422
+## Quick Links
+
+| Resource | Link |
+|---|---|
+| **Product Page** | [magento-2-producttabs.html](https://kishansavaliya.com/magento-2-producttabs.html) |
+| **Packagist** | [mage2kishan/module-producttabs](https://packagist.org/packages/mage2kishan/module-producttabs) |
+| **GitHub** | [mage2sk/module-producttabs](https://github.com/mage2sk/module-producttabs) |
+| **Website** | [kishansavaliya.com](https://kishansavaliya.com) |
+| **Free Quote** | [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote) |
+| **Upwork (Top Rated Plus)** | [Hire Kishan Savaliya](https://www.upwork.com/freelancers/~016dd1767321100e21) |
+| **Upwork Agency** | [Panth Infotech](https://www.upwork.com/agencies/1881421506131960778/) |
+| **Email** | kishansavaliyakb@gmail.com |
+| **WhatsApp** | +91 84012 70422 |
 
 ---
 
 <p align="center">
-  <strong>Ready to upgrade your Magento 2 product pages?</strong><br/>
-  <a href="https://kishansavaliya.com/get-quote">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Get%20Started%20%E2%86%92-Free%20Quote%20in%2024h-DC2626?style=for-the-badge" alt="Get Started" />
+  <strong>Ready to give shoppers a better product detail page?</strong><br/>
+  <a href="https://kishansavaliya.com/magento-2-producttabs.html">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20See%20Product%20Tabs%20%E2%86%92-Product%20Page%20%26%20Demo-DC2626?style=for-the-badge" alt="See Product Tabs" />
   </a>
 </p>
 
 ---
 
-**SEO Keywords:** magento 2 product tabs, magento 2 custom tabs, magento 2 attribute tabs, magento 2 cms block tabs, product detail page tab customization, magento 2 tab customization, magento 2 vertical tabs, magento 2 horizontal tabs, magento 2 pdp tabs, magento 2 product page tabs, magento 2 mobile accordion tabs, magento 2 sticky tabs, magento 2 tab extension, magento 2 product description tabs, magento 2 reviews tab, magento 2 more information tab, magento 2 deep linking tabs, magento 2 lazy load reviews, hyva product tabs, luma product tabs, hyva alpine js tabs, magento 2 tab sort order, magento 2 tab visibility, magento 2 custom tab labels, magento 2 specification tab, magento 2 product attribute table, mage2kishan, mage2sk, panth infotech, kishan savaliya, hire magento developer, top rated plus upwork magento, magento 2.4.8 extension, php 8.4 magento module, magento 2 hyva development, magento 2 luma customization
+**SEO Keywords:** magento 2 product tabs, magento 2 product tabs extension, magento 2 custom tabs, magento 2 cms block tabs, magento 2 attribute tabs, magento 2 tab extension, magento 2 tab customization, product detail page tabs magento 2, magento 2 pdp tabs, magento 2 vertical tabs, magento 2 horizontal tabs, magento 2 mobile accordion tabs, magento 2 tab sort order, magento 2 tab visibility, magento 2 tab labels, magento 2 custom tab labels, magento 2 specification tab, magento 2 product attribute table, hyva product tabs, hyva alpine js tabs, luma product tabs, magento 2 sticky tabs, magento 2 lazy load reviews tab, magento 2 deep linking tabs, magento 2 tab widget, magento 2 product description tabs, magento 2 reviews tab, magento 2 more information tab, mage2kishan producttabs, panth product tabs, panth infotech, kishan savaliya, hire magento developer, top rated plus upwork, magento 2.4.8 tab extension, php 8.4 magento module, magento 2 hyva development, custom magento development
