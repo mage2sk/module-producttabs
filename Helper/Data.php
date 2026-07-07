@@ -1,9 +1,4 @@
 <?php
-/**
- * Copyright © Panth Infotech. All rights reserved.
- *
- * Product Tabs configuration helper.
- */
 declare(strict_types=1);
 
 namespace Panth\ProductTabs\Helper;
@@ -15,9 +10,6 @@ use Magento\Store\Model\ScopeInterface;
 
 class Data extends AbstractHelper
 {
-    /**
-     * Configuration paths
-     */
     private const XML_PATH_ENABLED = 'panth_producttabs/general/enabled';
     private const XML_PATH_STICKY_TABS = 'panth_producttabs/general/sticky_tabs';
     private const XML_PATH_LAZY_LOAD_REVIEWS = 'panth_producttabs/general/lazy_load_reviews';
@@ -39,15 +31,8 @@ class Data extends AbstractHelper
     private const XML_PATH_CUSTOM_CMS_TABS = 'panth_producttabs/custom_cms_tabs/cms_tabs';
     private const XML_PATH_CUSTOM_ATTRIBUTE_TABS = 'panth_producttabs/custom_attribute_tabs/attr_tabs';
 
-    /**
-     * @var Json
-     */
     private Json $jsonSerializer;
 
-    /**
-     * @param Context $context
-     * @param Json $jsonSerializer
-     */
     public function __construct(
         Context $context,
         Json $jsonSerializer
@@ -56,12 +41,6 @@ class Data extends AbstractHelper
         $this->jsonSerializer = $jsonSerializer;
     }
 
-    /**
-     * Check if module is enabled
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function isEnabled($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -71,12 +50,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if sticky tabs is enabled
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function isStickyTabs($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -86,12 +59,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if lazy load reviews is enabled
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function isLazyLoadReviews($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -101,12 +68,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Get default tab setting
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getDefaultTab($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -116,12 +77,6 @@ class Data extends AbstractHelper
         ) ?: 'first');
     }
 
-    /**
-     * Get tab style (horizontal or vertical)
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getTabStyle($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -131,12 +86,6 @@ class Data extends AbstractHelper
         ) ?: 'horizontal');
     }
 
-    /**
-     * Get animation type (fade, slide, none)
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getAnimationType($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -146,12 +95,6 @@ class Data extends AbstractHelper
         ) ?: 'fade');
     }
 
-    /**
-     * Get mobile behavior (accordion or scroll)
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getMobileBehavior($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -161,12 +104,6 @@ class Data extends AbstractHelper
         ) ?: 'accordion');
     }
 
-    /**
-     * Check if first tab should be open by default
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function isFirstTabOpen($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -176,12 +113,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if accordion mode should be used on mobile
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function isAccordionOnMobile($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -191,12 +122,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Get description tab label
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getDescriptionLabel($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -206,12 +131,6 @@ class Data extends AbstractHelper
         ) ?: 'Description');
     }
 
-    /**
-     * Get more information tab label
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getMoreInfoLabel($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -221,12 +140,6 @@ class Data extends AbstractHelper
         ) ?: 'More Information');
     }
 
-    /**
-     * Get reviews tab label
-     *
-     * @param int|null $storeId
-     * @return string
-     */
     public function getReviewsLabel($storeId = null): string
     {
         return (string) ($this->scopeConfig->getValue(
@@ -236,12 +149,6 @@ class Data extends AbstractHelper
         ) ?: 'Reviews');
     }
 
-    /**
-     * Check if description tab should be shown
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function showDescription($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -251,12 +158,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if more info tab should be shown
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function showMoreInfo($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -266,12 +167,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if reviews tab should be shown
-     *
-     * @param int|null $storeId
-     * @return bool
-     */
     public function showReviews($storeId = null): bool
     {
         return (bool) $this->scopeConfig->getValue(
@@ -281,12 +176,6 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Get description tab sort order
-     *
-     * @param int|null $storeId
-     * @return int
-     */
     public function getDescriptionOrder($storeId = null): int
     {
         return (int) ($this->scopeConfig->getValue(
@@ -296,12 +185,6 @@ class Data extends AbstractHelper
         ) ?: 10);
     }
 
-    /**
-     * Get more info tab sort order
-     *
-     * @param int|null $storeId
-     * @return int
-     */
     public function getMoreInfoOrder($storeId = null): int
     {
         return (int) ($this->scopeConfig->getValue(
@@ -311,12 +194,6 @@ class Data extends AbstractHelper
         ) ?: 20);
     }
 
-    /**
-     * Get reviews tab sort order
-     *
-     * @param int|null $storeId
-     * @return int
-     */
     public function getReviewsOrder($storeId = null): int
     {
         return (int) ($this->scopeConfig->getValue(
@@ -326,12 +203,6 @@ class Data extends AbstractHelper
         ) ?: 30);
     }
 
-    /**
-     * Get custom CMS block tabs configuration
-     *
-     * @param int|null $storeId
-     * @return array
-     */
     public function getCustomCmsTabs($storeId = null): array
     {
         $value = $this->scopeConfig->getValue(
@@ -355,12 +226,6 @@ class Data extends AbstractHelper
         return is_array($value) ? $value : [];
     }
 
-    /**
-     * Get custom attribute tabs configuration
-     *
-     * @param int|null $storeId
-     * @return array
-     */
     public function getCustomAttributeTabs($storeId = null): array
     {
         $value = $this->scopeConfig->getValue(

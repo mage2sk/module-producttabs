@@ -1,7 +1,4 @@
 <?php
-/**
- * Copyright © Panth Infotech. All rights reserved.
- */
 declare(strict_types=1);
 
 namespace Panth\ProductTabs\Block\Adminhtml\Form\Field;
@@ -42,9 +39,6 @@ class CustomCmsTabs extends AbstractFieldArray
         $this->_addButtonLabel = __('Add CMS Block Tab');
     }
 
-    /**
-     * Override to ensure unique row IDs across multiple dynamic row tables
-     */
     public function getArrayRows(): array
     {
         $result = [];

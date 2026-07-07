@@ -1,7 +1,4 @@
 <?php
-/**
- * Copyright © Panth Infotech. All rights reserved.
- */
 declare(strict_types=1);
 
 namespace Panth\ProductTabs\Test\Unit\Helper;
@@ -15,14 +12,8 @@ use PHPUnit\Framework\TestCase;
 
 class DataTest extends TestCase
 {
-    /**
-     * @var Data
-     */
     private Data $helper;
 
-    /**
-     * @var ScopeConfigInterface|MockObject
-     */
     private $scopeConfigMock;
 
     protected function setUp(): void
@@ -34,9 +25,6 @@ class DataTest extends TestCase
         $this->helper = new Data($contextMock);
     }
 
-    /**
-     * Test isEnabled returns false when not configured
-     */
     public function testIsEnabledReturnsFalse(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -51,9 +39,6 @@ class DataTest extends TestCase
         $this->assertFalse($this->helper->isEnabled());
     }
 
-    /**
-     * Test isEnabled returns true when enabled
-     */
     public function testIsEnabledReturnsTrue(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -68,9 +53,6 @@ class DataTest extends TestCase
         $this->assertTrue($this->helper->isEnabled());
     }
 
-    /**
-     * Test isEnabled with specific store ID
-     */
     public function testIsEnabledWithSpecificStoreId(): void
     {
         $storeId = 2;
@@ -87,9 +69,6 @@ class DataTest extends TestCase
         $this->assertTrue($this->helper->isEnabled($storeId));
     }
 
-    /**
-     * Test getTabStyle returns horizontal by default
-     */
     public function testGetTabStyleReturnsDefault(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -104,9 +83,6 @@ class DataTest extends TestCase
         $this->assertEquals('horizontal', $this->helper->getTabStyle());
     }
 
-    /**
-     * Test getTabStyle returns configured value
-     */
     public function testGetTabStyleReturnsConfiguredValue(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -121,9 +97,6 @@ class DataTest extends TestCase
         $this->assertEquals('vertical', $this->helper->getTabStyle());
     }
 
-    /**
-     * Test getAnimationType returns fade by default
-     */
     public function testGetAnimationTypeReturnsDefault(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -138,9 +111,6 @@ class DataTest extends TestCase
         $this->assertEquals('fade', $this->helper->getAnimationType());
     }
 
-    /**
-     * Test getAnimationType returns configured value
-     */
     public function testGetAnimationTypeReturnsConfiguredValue(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -155,9 +125,6 @@ class DataTest extends TestCase
         $this->assertEquals('slide', $this->helper->getAnimationType());
     }
 
-    /**
-     * Test isFirstTabOpen returns true by default
-     */
     public function testIsFirstTabOpenReturnsTrue(): void
     {
         $this->scopeConfigMock->expects($this->once())
@@ -172,9 +139,6 @@ class DataTest extends TestCase
         $this->assertTrue($this->helper->isFirstTabOpen());
     }
 
-    /**
-     * Test isAccordionOnMobile returns true by default
-     */
     public function testIsAccordionOnMobileReturnsTrue(): void
     {
         $this->scopeConfigMock->expects($this->once())

@@ -1,7 +1,4 @@
 <?php
-/**
- * Copyright © Panth Infotech. All rights reserved.
- */
 declare(strict_types=1);
 
 namespace Panth\ProductTabs\Test\Unit\Model\Config\Source;
@@ -12,9 +9,6 @@ use PHPUnit\Framework\TestCase;
 
 class TabStyleTest extends TestCase
 {
-    /**
-     * @var TabStyle
-     */
     private TabStyle $tabStyle;
 
     protected function setUp(): void
@@ -22,9 +16,6 @@ class TabStyleTest extends TestCase
         $this->tabStyle = new TabStyle();
     }
 
-    /**
-     * Test toOptionArray returns array with proper structure
-     */
     public function testToOptionArrayReturnsArray(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -33,9 +24,6 @@ class TabStyleTest extends TestCase
         $this->assertNotEmpty($result);
     }
 
-    /**
-     * Test toOptionArray includes horizontal option
-     */
     public function testToOptionArrayIncludesHorizontalOption(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -53,9 +41,6 @@ class TabStyleTest extends TestCase
         $this->assertTrue($horizontalFound, 'Horizontal option not found in options array');
     }
 
-    /**
-     * Test toOptionArray includes vertical option
-     */
     public function testToOptionArrayIncludesVerticalOption(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -73,9 +58,6 @@ class TabStyleTest extends TestCase
         $this->assertTrue($verticalFound, 'Vertical option not found in options array');
     }
 
-    /**
-     * Test toOptionArray returns exactly two options
-     */
     public function testToOptionArrayReturnsExactlyTwoOptions(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -83,9 +65,6 @@ class TabStyleTest extends TestCase
         $this->assertCount(2, $result);
     }
 
-    /**
-     * Test toOptionArray each option has required keys
-     */
     public function testToOptionArrayEachOptionHasRequiredKeys(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -97,9 +76,6 @@ class TabStyleTest extends TestCase
         }
     }
 
-    /**
-     * Test toOptionArray values are not empty
-     */
     public function testToOptionArrayValuesAreNotEmpty(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -110,9 +86,6 @@ class TabStyleTest extends TestCase
         }
     }
 
-    /**
-     * Test toOptionArray returns consistent results
-     */
     public function testToOptionArrayReturnsConsistentResults(): void
     {
         $result1 = $this->tabStyle->toOptionArray();
@@ -121,9 +94,6 @@ class TabStyleTest extends TestCase
         $this->assertEquals($result1, $result2);
     }
 
-    /**
-     * Test toOptionArray option values are correct
-     */
     public function testToOptionArrayOptionValuesAreCorrect(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -133,17 +103,11 @@ class TabStyleTest extends TestCase
         $this->assertContains('vertical', $values);
     }
 
-    /**
-     * Test toOptionArray is implementing OptionSourceInterface correctly
-     */
     public function testTabStyleImplementsOptionSourceInterface(): void
     {
         $this->assertInstanceOf(OptionSourceInterface::class, $this->tabStyle);
     }
 
-    /**
-     * Test toOptionArray returns valid option array for form configuration
-     */
     public function testToOptionArrayValidForFormConfiguration(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -161,9 +125,6 @@ class TabStyleTest extends TestCase
         }
     }
 
-    /**
-     * Test toOptionArray horizontal option is first
-     */
     public function testToOptionArrayHorizontalOptionIsFirst(): void
     {
         $result = $this->tabStyle->toOptionArray();
@@ -171,9 +132,6 @@ class TabStyleTest extends TestCase
         $this->assertEquals('horizontal', $result[0]['value']);
     }
 
-    /**
-     * Test toOptionArray vertical option is second
-     */
     public function testToOptionArrayVerticalOptionIsSecond(): void
     {
         $result = $this->tabStyle->toOptionArray();

@@ -1,7 +1,4 @@
 <?php
-/**
- * Copyright © Panth Infotech. All rights reserved.
- */
 declare(strict_types=1);
 
 namespace Panth\ProductTabs\ViewModel;
@@ -13,34 +10,14 @@ use Magento\Review\Model\Review;
 use Magento\Review\Model\ResourceModel\Review\CollectionFactory as ReviewCollectionFactory;
 use Magento\Store\Model\StoreManagerInterface;
 
-/**
- * ViewModel for product tabs templates (shared between Luma and Hyva).
- *
- * Exposes the current product and an approved-review count so templates
- * no longer need to reach into ObjectManager directly.
- */
 class Tabs implements ArgumentInterface
 {
-    /**
-     * @var Registry
-     */
     private Registry $registry;
 
-    /**
-     * @var ReviewCollectionFactory
-     */
     private ReviewCollectionFactory $reviewCollectionFactory;
 
-    /**
-     * @var StoreManagerInterface
-     */
     private StoreManagerInterface $storeManager;
 
-    /**
-     * @param Registry $registry
-     * @param ReviewCollectionFactory $reviewCollectionFactory
-     * @param StoreManagerInterface $storeManager
-     */
     public function __construct(
         Registry $registry,
         ReviewCollectionFactory $reviewCollectionFactory,
@@ -51,22 +28,12 @@ class Tabs implements ArgumentInterface
         $this->storeManager = $storeManager;
     }
 
-    /**
-     * Get the current product from the registry.
-     *
-     * @return ProductInterface|null
-     */
     public function getCurrentProduct(): ?ProductInterface
     {
         $product = $this->registry->registry('current_product');
         return $product instanceof ProductInterface ? $product : null;
     }
 
-    /**
-     * Get the approved review count for the current product in the current store.
-     *
-     * @return int
-     */
     public function getApprovedReviewCount(): int
     {
         $product = $this->getCurrentProduct();
